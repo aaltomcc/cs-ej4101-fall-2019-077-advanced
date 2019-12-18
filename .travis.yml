@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GH_TOKEN
+  github_token: ${{ secrets.GITHUB_TOKEN }}
   local_dir: public
   on:
     branch: master
