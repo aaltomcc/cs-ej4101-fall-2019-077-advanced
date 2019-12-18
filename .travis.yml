@@ -7,9 +7,10 @@ script:
   - hugo
 
 deploy:
-  provider: pages
+- provider: pages
   skip_cleanup: true
   github_token: ${{ secrets.GITHUB_TOKEN }}
   local_dir: public
+  keep_history: true
   on:
     branch: master
