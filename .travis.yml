@@ -9,7 +9,7 @@ script:
 deploy:
 - provider: pages
   skip_cleanup: true
-  github_token: ${{ secrets.GITHUB_TOKEN }}
+  github_token: $GITHUB_TOKEN
   local_dir: public
   keep_history: true
   on:
