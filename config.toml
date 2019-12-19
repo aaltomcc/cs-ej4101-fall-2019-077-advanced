@@ -12,6 +12,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         identifier = "home"
     [[menu.main]]
         name = "Blog"
-        url = "/blog/"
+        url = "/blog/learning"
         weight = 2
 	    identifier = "blog"
