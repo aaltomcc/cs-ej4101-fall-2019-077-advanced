@@ -4,7 +4,7 @@ install:
   - sudo dpkg -i hugo_0.61.0_Linux-64bit.deb
 
 script:
-  - hugo
+  - hugo -v
 
 deploy:
 - provider: pages
