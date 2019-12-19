@@ -5,11 +5,12 @@ title = "My New Hugo Site"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+    name = "Home"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
-name = "Blog"
-url = "/blog/"
-weight = 1
+    name = "Blog"
+    url = "/blog/"
+    identifier = 
+    weight = 1
