@@ -3,6 +3,9 @@ languageCode = "en-us"
 theme = "hugo-lithium"
 title = "My New Hugo Site"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+[params]
+dateformat = "Jan 2, 2006"
+
 [menu]
 
     [[menu.main]]
