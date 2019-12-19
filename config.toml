@@ -1,6 +1,6 @@
 baseURL = "https://aaltomcc.github.io/cs-ej4101-fall-2019-077-advanced/"
 languageCode = "en-us"
-theme = "hugo-lithium"
+theme = "hugo-goa"
 title = "My New Hugo Site"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
